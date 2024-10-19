@@ -12,6 +12,7 @@ struct bitlingProjectApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            // YAYYYY
         }
     }
 }

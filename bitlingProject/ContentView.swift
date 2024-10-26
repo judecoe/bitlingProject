@@ -6,18 +6,24 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
+    let manager = CLLocationManager()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        ZStack{
+            Map()
+                .mapControls {
+                    MapScaleView()
+                    MapUserLocationButton()
+                }
+                .onAppear{
+                    manager.requestWhenInUseAuthorization()
+                }
+                }
     }
 }
+
 
 #Preview {
     ContentView()

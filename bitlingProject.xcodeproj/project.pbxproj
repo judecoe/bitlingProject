@@ -14,6 +14,14 @@
 		21E6B5512CC435F2002D7E18 /* bitlingProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E6B5502CC435F2002D7E18 /* bitlingProjectTests.swift */; };
 		21E6B55B2CC435F3002D7E18 /* bitlingProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E6B55A2CC435F3002D7E18 /* bitlingProjectUITests.swift */; };
 		21E6B55D2CC435F3002D7E18 /* bitlingProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E6B55C2CC435F3002D7E18 /* bitlingProjectUITestsLaunchTests.swift */; };
+		A72948152CD87F1900C06F7F /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72948142CD87F1900C06F7F /* LogoView.swift */; };
+		A72948172CD87F6900C06F7F /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A72948162CD87F6900C06F7F /* app_icon.png */; };
+		A72948192CD8808C00C06F7F /* uhlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A72948182CD8808C00C06F7F /* uhlogo.png */; };
+		A729481B2CD880D400C06F7F /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A729481A2CD880D400C06F7F /* ScreenView.swift */; };
+		A729481D2CD8813800C06F7F /* DashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A729481C2CD8813800C06F7F /* DashView.swift */; };
+		A729481F2CD8816000C06F7F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A729481E2CD8816000C06F7F /* MapView.swift */; };
+		A72948212CD8817D00C06F7F /* TrailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72948202CD8817D00C06F7F /* TrailsView.swift */; };
+		A72948232CD8818F00C06F7F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72948222CD8818F00C06F7F /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		21E6B5562CC435F3002D7E18 /* bitlingProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitlingProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E6B55A2CC435F3002D7E18 /* bitlingProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitlingProjectUITests.swift; sourceTree = "<group>"; };
 		21E6B55C2CC435F3002D7E18 /* bitlingProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitlingProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A72948142CD87F1900C06F7F /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		A72948162CD87F6900C06F7F /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		A72948182CD8808C00C06F7F /* uhlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uhlogo.png; sourceTree = "<group>"; };
+		A729481A2CD880D400C06F7F /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		A729481C2CD8813800C06F7F /* DashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashView.swift; sourceTree = "<group>"; };
+		A729481E2CD8816000C06F7F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A72948202CD8817D00C06F7F /* TrailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailsView.swift; sourceTree = "<group>"; };
+		A72948222CD8818F00C06F7F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +112,15 @@
 			children = (
 				21E6B53F2CC435F1002D7E18 /* bitlingProjectApp.swift */,
 				21E6B5412CC435F1002D7E18 /* ContentView.swift */,
+				A729481A2CD880D400C06F7F /* ScreenView.swift */,
+				A72948142CD87F1900C06F7F /* LogoView.swift */,
+				A729481C2CD8813800C06F7F /* DashView.swift */,
+				A729481E2CD8816000C06F7F /* MapView.swift */,
+				A72948202CD8817D00C06F7F /* TrailsView.swift */,
+				A72948222CD8818F00C06F7F /* SettingsView.swift */,
 				21E6B5432CC435F2002D7E18 /* Assets.xcassets */,
+				A72948182CD8808C00C06F7F /* uhlogo.png */,
+				A72948162CD87F6900C06F7F /* app_icon.png */,
 				21E6B5452CC435F2002D7E18 /* Preview Content */,
 			);
 			path = bitlingProject;
@@ -231,8 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72948172CD87F6900C06F7F /* app_icon.png in Resources */,
 				21E6B5472CC435F2002D7E18 /* Preview Assets.xcassets in Resources */,
 				21E6B5442CC435F2002D7E18 /* Assets.xcassets in Resources */,
+				A72948192CD8808C00C06F7F /* uhlogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A729481D2CD8813800C06F7F /* DashView.swift in Sources */,
+				A72948232CD8818F00C06F7F /* SettingsView.swift in Sources */,
+				A729481F2CD8816000C06F7F /* MapView.swift in Sources */,
 				21E6B5422CC435F1002D7E18 /* ContentView.swift in Sources */,
+				A72948212CD8817D00C06F7F /* TrailsView.swift in Sources */,
+				A72948152CD87F1900C06F7F /* LogoView.swift in Sources */,
+				A729481B2CD880D400C06F7F /* ScreenView.swift in Sources */,
 				21E6B5402CC435F1002D7E18 /* bitlingProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +456,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"bitlingProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need to know your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +485,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"bitlingProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need to know your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
